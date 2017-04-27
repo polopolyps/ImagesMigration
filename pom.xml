@@ -13,6 +13,7 @@
     <!-- <polopoly.version>polopoly.version</polopoly.version> -->
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <pcmd.version>beta.3.2.1</pcmd.version>
+    <polopoly.version>10.16.3-fp3</polopoly.version>
   </properties>
 
   <dependencies>
