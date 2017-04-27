@@ -99,7 +99,6 @@ public class OldImageMapperTool implements Tool<ContentIdListParameters> {
                    ParserConfigurationException {
 
         PolicyCMServer cmServer = context.getPolicyCMServer();
-        cmServer.removeContent(new VersionedContentId());
         ImagePolicy oldImage = (ImagePolicy) cmServer.getPolicy(contentId);
         AspectedImagePolicy newImage = (AspectedImagePolicy) cmServer.createContentVersion(
                 contentId.getLatestVersionId(),
